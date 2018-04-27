@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Night Job", "Assembly-CSharp.csproj", "{6317CEFF-5DA5-684A-D239-D674EF0CE2C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Night Job", "Assembly-CSharp-Editor.csproj", "{2354CA24-F2B2-D948-F68A-3F19DED4EA84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6317CEFF-5DA5-684A-D239-D674EF0CE2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6317CEFF-5DA5-684A-D239-D674EF0CE2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6317CEFF-5DA5-684A-D239-D674EF0CE2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6317CEFF-5DA5-684A-D239-D674EF0CE2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2354CA24-F2B2-D948-F68A-3F19DED4EA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2354CA24-F2B2-D948-F68A-3F19DED4EA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2354CA24-F2B2-D948-F68A-3F19DED4EA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2354CA24-F2B2-D948-F68A-3F19DED4EA84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
