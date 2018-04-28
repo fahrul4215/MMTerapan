@@ -291,12 +291,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BatonController.cs" />
     <Compile Include="Assets\Scripts\clone.cs" />
+    <Compile Include="Assets\Scripts\HealthManager.cs" />
     <Compile Include="Assets\Scripts\MenuActions.cs" />
     <Compile Include="Assets\Scripts\MusuhMove.cs" />
-    <Compile Include="Assets\Scripts\MusuhSerang.cs" />
+    <Compile Include="Assets\Scripts\PlaceReach.cs" />
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
+    <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
-    <Compile Include="Assets\Scripts\playerSkor.cs" />
     <Compile Include="Assets\Scripts\SkorManager.cs" />
   </ItemGroup>
   <ItemGroup>
