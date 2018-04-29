@@ -51,13 +51,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BatonController.cs" />
      <Compile Include="Assets\Scripts\clone.cs" />
+     <Compile Include="Assets\Scripts\HealthManager.cs" />
+     <Compile Include="Assets\Scripts\HitMusuh.cs" />
      <Compile Include="Assets\Scripts\MenuActions.cs" />
      <Compile Include="Assets\Scripts\MusuhMove.cs" />
-     <Compile Include="Assets\Scripts\MusuhSerang.cs" />
+     <Compile Include="Assets\Scripts\Pause.cs" />
+     <Compile Include="Assets\Scripts\PlaceReach.cs" />
      <Compile Include="Assets\Scripts\PlayerControl.cs" />
-     <Compile Include="Assets\Scripts\PlayerMove.cs" />
-     <Compile Include="Assets\Scripts\playerSkor.cs" />
+     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\SkorManager.cs" />
+     <Compile Include="Assets\Scripts\TimeManager.cs" />
      <None Include="Assets\Fonts\Atarian\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

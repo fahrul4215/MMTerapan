@@ -148,8 +148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firepoint: {fileID: 4296843154512176}
-  baton: {fileID: 0}
-  shotDelay: 1
+  baton: {fileID: 1037110443858576, guid: 313d508113bc28245b44e39eb4516643, type: 2}
+  shotDelay: 0.5
 --- !u!114 &114988527782612230
 MonoBehaviour:
   m_ObjectHideFlags: 1

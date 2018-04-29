@@ -11,6 +11,8 @@ public class HealthManager : MonoBehaviour {
 
     public static int totalHealth;
 
+    public GameObject overPanel;
+
     void Start()
     {
         totalHealth = 0;
@@ -23,14 +25,15 @@ public class HealthManager : MonoBehaviour {
             if (i < totalHealth) healtIndikator[i].sprite = iconHealthEmpty;
             else healtIndikator[i].sprite = iconHealthFull;
         }
+        if (totalHealth > 2)
+        {
+            Time.timeScale = 0;
+            overPanel.SetActive(true);
+        }
     }
 
     public static void OnChangeHealth()
     {
-        if (totalHealth == 2)
-        {
-            Application.LoadLevel(0);
-        }
         totalHealth++;
     }
 }

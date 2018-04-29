@@ -3,7 +3,63 @@ guid: f261f64644022b24ca73fe634154ac7a
 timeCreated: 1524462030
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: thiefboypreview-_0
+    21300002: thiefboypreview-_1
+    21300004: thiefboypreview-_2
+    21300006: thiefboypreview-_3
+    21300008: thiefboypreview-_4
+    21300010: thiefboypreview-_5
+    21300012: thiefboypreview-_6
+    21300014: thiefboypreview-_7
+    21300016: thiefboypreview-_8
+    21300018: thiefboypreview-_9
+    21300020: thiefboypreview-_10
+    21300022: thiefboypreview-_11
+    21300024: thiefboypreview-_12
+    21300026: thiefboypreview-_13
+    21300028: thiefboypreview-_14
+    21300030: thiefboypreview-_15
+    21300032: thiefboypreview-_16
+    21300034: thiefboypreview-_17
+    21300036: thiefboypreview-_18
+    21300038: thiefboypreview-_19
+    21300040: thiefboypreview-_20
+    21300042: thiefboypreview-_21
+    21300044: thiefboypreview-_22
+    21300046: thiefboypreview-_23
+    21300048: thiefboypreview-_24
+    21300050: thiefboypreview-_25
+    21300052: thiefboypreview-_26
+    21300054: thiefboypreview-_27
+    21300056: thiefboypreview-_28
+    21300058: thiefboypreview-_29
+    21300060: thiefboypreview-_30
+    21300062: thiefboypreview-_31
+    21300064: thiefboypreview-_32
+    21300066: thiefboypreview-_33
+    21300068: ngelu-0
+    21300070: ngelu-1
+    21300072: ngelu-2
+    21300074: thiefboypreview-_37
+    21300076: mlayu0
+    21300078: mlayu1
+    21300080: mlayu2
+    21300082: mlayu3
+    21300084: thiefboypreview-_42
+    21300086: thiefboypreview-_43
+    21300088: thiefboypreview-_44
+    21300090: thiefboypreview-_45
+    21300092: thiefboypreview-_46
+    21300094: thiefboypreview-_47
+    21300096: thiefboypreview-_48
+    21300098: thiefboypreview-_49
+    21300100: thiefboypreview-_50
+    21300102: thiefboypreview-_51
+    21300104: mencolot-0
+    21300106: mencolot-1
+    21300108: mencolot-2
+    21300110: mencolot-3
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +96,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +122,823 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: thiefboypreview-_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 549
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 549
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 549
+        width: 30
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 549
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 549
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_5
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 549
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 549
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 474
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 474
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 474
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_10
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 473
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_11
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 473
+        width: 30
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_12
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 472
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_13
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 506
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_14
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 498
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_15
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 378
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 386
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_17
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 407
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 391
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_19
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 379
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_20
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 377
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_21
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 378
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_22
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 293
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_23
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 297
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_24
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 293
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 293
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_26
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 293
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_27
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 266
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_28
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 264
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_29
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 264
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_30
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 266
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_31
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 265
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 260
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_33
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 254
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ngelu-0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 200
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ngelu-1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 198
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ngelu-2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 198
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_37
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 256
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mlayu0
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 194
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mlayu1
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 193
+        width: 41
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mlayu2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 193
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mlayu3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 194
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_42
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 197
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_43
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 204
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_44
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 194
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_45
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 196
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_46
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 115
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_47
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 116
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_48
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 116
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_49
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 115
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_50
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 111
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: thiefboypreview-_51
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 110
+        width: 67
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mencolot-0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 13
+        width: 30
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mencolot-1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 14
+        width: 30
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mencolot-2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 16
+        width: 31
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mencolot-3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 8
+        width: 31
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
