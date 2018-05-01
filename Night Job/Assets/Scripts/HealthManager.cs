@@ -22,8 +22,10 @@ public class HealthManager : MonoBehaviour {
     {
         for (int i = 0; i < healtIndikator.Length; ++i)
         {
-            if (i < totalHealth) healtIndikator[i].sprite = iconHealthEmpty;
-            else healtIndikator[i].sprite = iconHealthFull;
+            if (i < totalHealth)
+                healtIndikator[i].sprite = iconHealthEmpty;
+            else
+                healtIndikator[i].sprite = iconHealthFull;
         }
         if (totalHealth > 2)
         {
@@ -35,5 +37,9 @@ public class HealthManager : MonoBehaviour {
     public static void OnChangeHealth()
     {
         totalHealth++;
+    }
+
+    public static void OnKurangHealth(){
+        totalHealth--;
     }
 }
