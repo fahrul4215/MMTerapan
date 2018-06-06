@@ -19,7 +19,10 @@ public class HurtPlayer : MonoBehaviour {
 	private void OnTriggerEnter(Collider other) {
 		if (other.tag == "Player") 
 		{
-			FindObjectOfType<HealthManager>().HurtPlayer(damageToGive);
+            Vector3 hitDirection = other.transform.position - transform.position;
+            hitDirection = hitDirection.normalized;
+
+			FindObjectOfType<HealthManager>().HurtPlayer(damageToGive, hitDirection);
 		}
 	}
 }

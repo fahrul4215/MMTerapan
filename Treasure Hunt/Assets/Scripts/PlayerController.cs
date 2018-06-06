@@ -18,35 +18,47 @@ public class PlayerController : MonoBehaviour {
 
 	public GameObject playerModel;
 
-	// Use this for initialization
-	void Start () {
+    public float knockBackForce;
+    public float knockBackTime;
+    private float knockBackCounter;
+
+    // Use this for initialization
+    void Start () {
 		// rigid = GetComponent<Rigidbody>();
 		controller = GetComponent<CharacterController>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		// rigid.velocity = new Vector3(Input.GetAxis("Horizontal") * moveSpeed, rigid.velocity.y, Input.GetAxis("Vertical") * moveSpeed);
+        // rigid.velocity = new Vector3(Input.GetAxis("Horizontal") * moveSpeed, rigid.velocity.y, Input.GetAxis("Vertical") * moveSpeed);
 
-		// if (Input.GetButtonDown("Jump")) 
-		// {
-		// 	rigid.velocity = new Vector3(rigid.velocity.x, jumpForce, rigid.velocity.z);
-		// }
+        // if (Input.GetButtonDown("Jump")) 
+        // {
+        // 	rigid.velocity = new Vector3(rigid.velocity.x, jumpForce, rigid.velocity.z);
+        // }
 
-		// moveArah = new Vector3(Input.GetAxis("Horizontal") * moveSpeed, moveArah.y, Input.GetAxis("Vertical") * moveSpeed);
-		float yStore = moveArah.y;
-		moveArah = (transform.forward * Input.GetAxis("Vertical")) + (transform.right * Input.GetAxis("Horizontal"));
-		moveArah = moveArah.normalized * moveSpeed;
-		moveArah.y = yStore;
+        // moveArah = new Vector3(Input.GetAxis("Horizontal") * moveSpeed, moveArah.y, Input.GetAxis("Vertical") * moveSpeed);
 
-		if (controller.isGrounded)
-		{
-			moveArah.y = 0f;
-			if (Input.GetButtonDown("Jump")) 
-			{
-				moveArah.y = jumpForce;
-			}
-		}
+        if (knockBackCounter <= 0)
+        {
+            float yStore = moveArah.y;
+            moveArah = (transform.forward * Input.GetAxis("Vertical")) + (transform.right * Input.GetAxis("Horizontal"));
+            moveArah = moveArah.normalized * moveSpeed;
+            moveArah.y = yStore;
+
+            if (controller.isGrounded)
+            {
+                moveArah.y = 0f;
+                if (Input.GetButtonDown("Jump"))
+                {
+                    moveArah.y = jumpForce;
+                }
+            }
+        }
+        else
+        {
+            knockBackCounter -= Time.deltaTime;
+        }
 
 		moveArah.y += (Physics.gravity.y * gravityScale * Time.deltaTime);
 		controller.Move(moveArah * Time.deltaTime);
@@ -62,4 +74,12 @@ public class PlayerController : MonoBehaviour {
 		anim.SetBool("isGrounded", controller.isGrounded);
 		anim.SetFloat("Speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Horizontal"))));
 	}
+
+    public void KnockBack(Vector3 direction)
+    {
+        knockBackCounter = knockBackTime;
+
+        moveArah = direction * knockBackForce;
+        moveArah.y = knockBackForce;
+    }
 }
