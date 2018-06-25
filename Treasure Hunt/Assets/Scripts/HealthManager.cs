@@ -28,6 +28,10 @@ public class HealthManager : MonoBehaviour {
     public float fadeSpeed;
     public float waitForFade;
 
+    public Image[] healtIndikator;
+    public Sprite iconHealthFull;
+    public Sprite iconHealthEmpty;
+
     // Use this for initialization
     void Start () {
 		currentHealth = maxHealth;
@@ -39,6 +43,13 @@ public class HealthManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        for (int i = 0; i < healtIndikator.Length; ++i)
+        {
+            if (i < currentHealth)
+                healtIndikator[i].sprite = iconHealthFull;
+            else
+                healtIndikator[i].sprite = iconHealthEmpty;
+        }
         if (invincibilityCounter > 0)
         {
             invincibilityCounter -= Time.deltaTime;
