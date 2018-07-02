@@ -292,13 +292,15 @@
     <Compile Include="Assets\Scripts\BatonController.cs" />
     <Compile Include="Assets\Scripts\clone.cs" />
     <Compile Include="Assets\Scripts\HealthManager.cs" />
+    <Compile Include="Assets\Scripts\HitMusuh.cs" />
     <Compile Include="Assets\Scripts\MenuActions.cs" />
     <Compile Include="Assets\Scripts\MusuhMove.cs" />
+    <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\PlaceReach.cs" />
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
-    <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\SkorManager.cs" />
+    <Compile Include="Assets\Scripts\TimeManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\Atarian\Readme.txt" />

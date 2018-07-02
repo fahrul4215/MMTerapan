@@ -102,10 +102,10 @@
     <Compile Include="Assets\Models\LowpolyDungeonAssets\Demo Scene\PostProcessing\Editor\Utils\FxStyles.cs" />
     <Compile Include="Assets\Models\LowpolyDungeonAssets\Demo Scene\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/ekadewi/Downloads/Compressed/MMTerapan-master/MMTerapan-master/Treasure Hunt/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>F:/POLINEMA/semester4/MULTIMEDIA/Paul/Treasure Hunt/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/ekadewi/Downloads/Compressed/MMTerapan-master/MMTerapan-master/Treasure Hunt/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>F:/POLINEMA/semester4/MULTIMEDIA/Paul/Treasure Hunt/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>E:/Paul/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
